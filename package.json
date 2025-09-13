@@ -1,0 +1,66 @@
+{
+  "name": "anp-ts-sdk",
+  "version": "0.1.0",
+  "description": "ANP TypeScript SDK - 智能体网络协议自动配置工具包",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/anp-key-generator.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "anp",
+    "agent-network-protocol",
+    "typescript",
+    "sdk",
+    "did",
+    "wba",
+    "cryptography",
+    "ed25519",
+    "secp256k1",
+    "auto-config",
+    "agent",
+    "p2p"
+  ],
+  "author": "liuyuanjie ,2844169590@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "@noble/ed25519": "^1.7.1",
+    "@noble/secp256k1": "^1.7.1",
+    "base64url": "^3.0.1",
+    "bs58": "^5.0.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist/",
+    "README-SDK.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logos-42/anp-key-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logos-42/anp-key-generator/issues"
+  },
+  "homepage": "https://github.com/logos-42/anp-key-generator#readme"
+}
