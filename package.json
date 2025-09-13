@@ -57,10 +57,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/logos-42/anp-key-generator.git"
+    "url": "https://github.com/logos-42/anp-ts-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/logos-42/anp-key-generator/issues"
+    "url": "https://github.com/logos-42/anp-ts-sdk/issues"
   },
-  "homepage": "https://github.com/logos-42/anp-key-generator#readme"
+  "homepage": "https://github.com/logos-42/anp-ts-sdk#readme"
 }
